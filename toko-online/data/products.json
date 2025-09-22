@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Laptop Gaming",
+        "price": 15000000,
+        "description": "Laptop gaming dengan prosesor Intel i7, RAM 16GB, dan GPU RTX 4060."
+    },
+    {
+        "id": 2,
+        "name": "Mouse Gaming",
+        "price": 750000,
+        "description": "Mouse gaming dengan DPI hingga 16000, RGB lighting, dan tombol makro."
+    },
+    {
+        "id": 3,
+        "name": "Keyboard Mechanical",
+        "price": 1200000,
+        "description": "Keyboard mechanical dengan switch tactile, keycap PBT, dan backlight RGB."
+    },
+    {
+        "id": 4,
+        "name": "Headset Gaming",
+        "price": 950000,
+        "description": "Headset gaming dengan surround sound 7.1, mikrofon noise-cancelling, dan bantalan empuk."
+    },
+    {
+        "id": 5,
+        "name": "Monitor 27 Inch 144Hz",
+        "price": 4500000,
+        "description": "Monitor gaming 27 inci, refresh rate 144Hz, resolusi 2K, dan response time 1ms."
+    },
+    {
+        "id": 6,
+        "name": "Kursi Gaming",
+        "price": 2500000,
+        "description": "Kursi gaming ergonomis dengan sandaran punggung tinggi, bantalan leher, dan reclining hingga 180°."
+    },
+    {
+        "id": 7,
+        "name": "Gamepad Wireless",
+        "price": 650000,
+        "description": "Gamepad wireless kompatibel dengan PC dan konsol, baterai tahan 15 jam."
+    },
+    {
+        "id": 8,
+        "name": "SSD NVMe 1TB",
+        "price": 1800000,
+        "description": "SSD NVMe Gen 4 dengan kecepatan baca 5000MB/s, cocok untuk gaming dan multitasking."
+    },
+    {
+        "id": 9,
+        "name": "GPU RTX 4070",
+        "price": 11000000,
+        "description": "Kartu grafis NVIDIA RTX 4070 dengan VRAM 12GB GDDR6X, ideal untuk 2K dan 4K gaming."
+    },
+    {
+        "id": 10,
+        "name": "Power Supply 750W",
+        "price": 1250000,
+        "description": "Power supply modular 750W, sertifikasi 80+ Gold, mendukung build gaming kelas high-end."
+    }
+]
