@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var products = require('../controllers/main');
+var mainControllers = require('../controllers/main');
 
 /* GET home page. */
 // router.get('/', function(req, res, next) {
@@ -31,5 +31,9 @@ var products = require('../controllers/main');
 //   });
 // });
 
-router.get("/", mainController.index);
+//Home
+router.get("/", mainControllers.index);
+//Search
+router.get("/search", mainControllers.search);
+
 module.exports = router;

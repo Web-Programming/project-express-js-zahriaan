@@ -9,8 +9,7 @@ router.get("/search", function (req, res, next) {
   let filteredProducts = products;
   if (q) {
     filteredProducts = products.filter(p =>
-      p.name.toLowerCase().includes(q) ||
-      p.description.toLowerCase().includes(q)
+      p.name.toLowerCase().includes(q)
     );
   }
 
