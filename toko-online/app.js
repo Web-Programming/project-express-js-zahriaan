@@ -4,12 +4,14 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var engine = require('ejs-blocks'); // menggunakan ejs block
+//panggil file koneksi database
+require("./app_toko_online/models/db");
 
 // import routes
 var indexRouter = require('./app_toko_online/routes/index');
 var usersRouter = require('./app_toko_online/routes/users');
 var productRouter = require("./app_toko_online/routes/product");
-
+var engine = require('ejs-blocks'); // menggunakan ejs block
 var app = express();
 
 // view engine setup
