@@ -1,0 +1,33 @@
+### POST Membuat Pesanan Baru
+# Ganti user ID dengan ID user yang sudah ada di MongoDB
+# Ganti product ID dengan _id produk yang sudah ada di MongoDB (lihat collection products)
+POST http://localhost:3000/api/orders
+Content-Type: application/json
+
+{
+    "user": "68f784c82cf562fae22a2b10", 
+    "orderItems": [
+        {
+            "product": "68eb8a272b85fac3d9fffd14", 
+            "quantity": 2
+        },
+        {
+            "product": "68f7832b2cf562fae22a2b08",
+            "quantity": 1
+        }
+    ]
+}
+
+### GET Semua Pesanan
+GET http://localhost:3000/api/orders
+
+### GET Detail Pesanan (Ganti ID)
+GET http://localhost:3000/api/orders/68fa3e6e2cd5834b330c0771
+
+### PUT Update Status Pesanan (Ganti ID)
+PUT http://localhost:3000/api/orders/68fa3e6e2cd5834b330c0771
+Content-Type: application/json
+
+{
+    "status": "Shipped"
+}

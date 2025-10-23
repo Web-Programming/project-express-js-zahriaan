@@ -8,16 +8,16 @@ content-type: application/json
 
 {
     "name": "Keyboard",
-    "price": "1",
+    "price": "150000",
     "description" : "Hyper sensitive keyboard",
     "stock" : 1
 }
 
 ### Detail Product
-GET http://localhost:3000/api/produk/68ecc2774d49272f5636f31f
+GET http://localhost:3000/api/produk/68f7832b2cf562fae22a2b08
 
 ### Update Product
-PUT http://localhost:3000/api/produk/68ecc2774d49272f5636f31f
+PUT http://localhost:3000/api/produk/68f7832b2cf562fae22a2b08
 content-type: application/json
 
 {
@@ -26,4 +26,4 @@ content-type: application/json
 }
 
 ### Delete Product
-DELETE http://localhost:3000/api/produk/68ecc2774d49272f5636f31f
+DELETE http://localhost:3000/api/produk/68f7832b2cf562fae22a2b08
